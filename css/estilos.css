@@ -1,3 +1,5 @@
+/*estilos para index.html*/
+
 body {
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,7 +8,6 @@ body {
     flex-direction: column;
     height: 100vh;
 }
-
 
 header {
     background-color: #00160d;
@@ -48,7 +49,6 @@ nav a{
     padding-left: 15px;
     padding-right: 15px;
     color: white;
-    
 }
 
 nav a:hover{
@@ -80,4 +80,97 @@ h1{
 
 #Destaque a:hover{
     opacity: 1.0;
+}
+
+/*estilos para sobre.html*/
+
+#conteudo-empresa{
+    display: flex;
+    
+}
+
+#contudo-empresa-esquerda{
+  
+    width: 50%;
+}
+
+#contudo-empresa-direita{
+    
+    width: 50%;
+}
+
+#img-empresa{
+    width: 100%;
+}
+
+#contudo-empresa-direita p {
+    padding-left: 30px;
+    text-align: justify;
+}
+
+#selo-melhores-empresas{
+    height: 25%;
+    margin-top: 35px;
+}
+
+/*Estilos sobre solucoes.html*/
+
+#destaque{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #266312;
+    font-size: 28px;
+}
+
+.destaques-produto{
+  padding: 0px 15px;
+}
+
+.destaques-produto a{
+ text-decoration: none;
+ color: rgb(196, 146, 21);
+ 
+}
+
+.destaques-produto a:hover{
+    font-weight: bold;
+}
+
+/*Estilos sobre casos.html*/
+
+.detalhes-caso{
+    display: flex;
+    margin: 30px 0px;
+   
+}
+
+.detalhes-caso img{
+    padding-right: 30px;
+}
+
+.detalhes-caso-texto{
+    text-align: start;
+}
+
+/*Estilos sobre contato.html*/
+
+#frm-container{
+    display: flex;
+}
+
+#frm-labels{
+    width: 50%;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#frm-fields{
+    width: 50%;
+    text-align: left;
+    padding-left: 15px;
 }
