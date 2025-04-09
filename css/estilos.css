@@ -174,3 +174,30 @@ h2{
     text-align: left;
     padding-left: 15px;
 }
+
+#frm-mensagem{
+   resize: none;                                                            
+}
+
+#frm-container select, input, textarea{
+    width: 380px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+
+#btn-enviar{
+    background-color: #1f6600;
+    color: white;
+}
+
+#btn-apagar{
+    background-color: #c4c4c4;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    margin: 0px 15px;
+    border: 0;
+}
